@@ -1,42 +1,56 @@
-# 2025-ewha-spring
-## YouTube Travel Analyzer
+# TRENDIE
+> 여행 유튜버(인플루언서)를 위한 틱톡, 유튜브의 트렌드를 분석하여 현재 여행 트렌드를 제공하고, 사용자가 업로드 할 영상을 분석하여 (맞춤형) 해시태그와 제목을 제공하는 모바일 어플리케이션
 
-유튜브 API를 사용해 여행 관련 영상을 수집하고, 텍스트 분석으로 여행 키워드를 추출하는 프로젝트입니다.
+## 🔍 프로젝트 개요
 
-### 주요 파일 구조
-```
-youtube_travel_analyzer/
-│
-├── main.py # 실행 스크립트
-├── youtube_api.py # 유튜브 API 호출
-├── text_processing.py # 텍스트 전처리 및 키워드 분석
-├── config.py # 환경변수 및 설정값 로딩
-├── stopwords-ko.txt # 한국어 불용어 리스트
-├── requirements.txt # 필요한 패키지 목록
-├── utils.py # 결과 출력 및 저장
-├── .env # 환경변수 파일 (로컬 전용)
-├── .gitignore # 민감 정보 제외 설정
-```
+**TRENDIE**는
 
-### 설치 및 실행
+✔ 최신 여행 트렌드를 시각화한 대시보드  
+✔ 사용자 영상의 트렌드 일치도 피드백 보고서  
 
-1. 가상환경 생성 및 활성화  
-2. `pip install -r requirements.txt`  
-3. `.env` 파일 생성 후 아래 변수 설정:
+를 제공하는 **여행 유튜버 대상 피드백 제공 서비스**입니다.
 
-```env
-YOUTUBE_API_KEY="여기에_API_키"
-STOPWORDS_PATH="stopwords-ko.txt"
-REGION_CODE="KR"
-MAX_RESULTS=50
-TOP_KEYWORDS=3
-TRAVEL_SCORE_THRESHOLD=3
-```
+---
 
-4. `python main.py` 실행
+## 🖼️ 프로젝트 구성
 
-### 주의사항
+- **YouTube Travel Analyzer** (텍스트 분석 모듈)  
+  유튜브 API를 사용해 여행 관련 영상을 수집하고, 텍스트 분석으로 여행 키워드를 추출합니다.
 
-- `.env` 파일에 API 키 등 민감 정보 포함, 깃허브 업로드 금지  
-- API 키는 Google Cloud Console에서 발급받을 것  
+    ### 📁 주요 파일 구조
 
+    ```
+    youtube_travel_analyzer/
+    │
+    ├── main.py                   # 실행 스크립트
+    ├── youtube_api.py           # 유튜브 API 호출
+    ├── text_processing.py       # 텍스트 전처리 및 키워드 분석
+    ├── config.py                # 환경변수 및 설정값 로딩
+    ├── stopwords-ko.txt         # 한국어 불용어 리스트
+    ├── requirements.txt         # 필요한 패키지 목록
+    ├── utils.py                 # 결과 출력 및 저장
+    ├── .env                     # 환경변수 파일 (로컬 전용)
+    ├── .gitignore               # 민감 정보 제외 설정
+    ```
+
+    ### ⚙️ 설치 및 실행
+
+    1. 가상환경 생성 및 활성화  
+    2. `pip install -r requirements.txt`  
+    3. `.env` 파일 생성 후 아래 변수 설정:
+
+    ```env
+    YOUTUBE_API_KEY="여기에_API_키"
+    STOPWORDS_PATH="stopwords-ko.txt"
+    REGION_CODE="KR"
+    MAX_RESULTS=50
+    TOP_KEYWORDS=3
+    TRAVEL_SCORE_THRESHOLD=3
+    ```
+
+    4. `python main.py` 실행
+
+    ### ⚠️ 주의사항
+
+    - `.env` 파일에 API 키 등 민감 정보 포함, 깃허브 업로드 금지  
+    - API 키는 Google Cloud Console에서 발급받을 것
