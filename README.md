@@ -20,6 +20,15 @@
     ### 📁 주요 파일 구조
 
     ```
+    TikTok_Crawler/
+    │
+    ├── hashtag_crawler.py         # 틱톡 해시태그 순위 크롤링                 
+    ├── music_crawler.py           # 틱톡 음악 순위 크롤링
+    ├── save_cookies.py            # 로그인 세션 쿠키 저장
+    ├── tiktok_cookies.json        # 쿠키 파일
+    ```
+    
+    ```
     youtube_travel_analyzer/
     │
     ├── main.py                  # 실행 스크립트
