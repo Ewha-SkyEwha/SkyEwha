@@ -22,7 +22,7 @@
     ```
     youtube_travel_analyzer/
     │
-    ├── main.py                   # 실행 스크립트
+    ├── main.py                  # 실행 스크립트
     ├── youtube_api.py           # 유튜브 API 호출
     ├── text_processing.py       # 텍스트 전처리 및 키워드 분석
     ├── config.py                # 환경변수 및 설정값 로딩
