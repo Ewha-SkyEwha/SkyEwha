@@ -14,7 +14,7 @@
 
 ## 🖼️ 프로젝트 구성
 
-- **whisper-keyword-generator** (텍스트 분석 모듈)  
+- **whisper-keyword-generator**
   Whisper API와 OpenAI를 사용해 동영상 속 음성을 텍스트로 변환하고 해시태그로 사용할 만한 키워드를 추출합니다.
 
 - **YouTube Travel Analyzer** (텍스트 분석 모듈)  
@@ -23,7 +23,7 @@
     ### 📁 주요 파일 구조
 
     ```
-    whisper-keyword-generator.ipynb
+    whisper-keyword-generator.ipynb    # ASR(Automatic Speech Recognition) & 키워드 추출
     ```
 
     ```
