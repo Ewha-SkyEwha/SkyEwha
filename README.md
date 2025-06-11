@@ -53,7 +53,7 @@
 
     ### ⚙️ 설치 및 실행
   
-    **TikTok_Crawler**
+    **TikTok_Crawler/**
     1. Python(최소 3.8 필요) 설치
     2. `pip install -r requirements.txt`
         </br>playwright 최초 설치일 경우 아래 명령어로 브라우저 드라이버 설치:
