@@ -15,7 +15,7 @@
 ## 🖼️ 프로젝트 구성
 
 - **whisper-keyword-generator**
-  Whisper API와 OpenAI를 사용해 동영상 속 음성을 텍스트로 변환하고 해시태그로 사용할 만한 키워드를 추출합니다.
+  </br>Whisper API와 OpenAI를 사용해 동영상 속 음성을 텍스트로 변환하고 해시태그로 사용할 만한 키워드를 추출합니다.
 
 - **YouTube Travel Analyzer** (텍스트 분석 모듈)  
   유튜브 API를 사용해 여행 관련 영상을 수집하고, 텍스트 분석으로 여행 키워드를 추출합니다.
