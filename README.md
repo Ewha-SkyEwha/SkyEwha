@@ -17,7 +17,7 @@
 - **whisper-keyword-generator**
   </br>Whisper API와 OpenAI를 사용해 동영상 속 음성을 텍스트로 변환하고 해시태그로 사용할 만한 키워드를 추출합니다.
 
-- **TikTok_Crawler**
+- **TikTok Crawler**
   </br>TikTok Creative Center의 인기 순위 목록을 수집합니다. 인기 있는 음악 정보와 여행 관련 인기 해시태그를 크롤링하여 음악과 여행 트렌드를 분석합니다.
 
 - **YouTube Travel Analyzer** (텍스트 분석 모듈)  
