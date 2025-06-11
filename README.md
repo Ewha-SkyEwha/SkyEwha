@@ -56,16 +56,15 @@
     **TikTok_Crawler**
     1. Python(최소 3.8 필요) 설치
     2. `pip install -r requirements.txt`
-        </br>playwright 최초 설치 시:
-          </br>아래 명령어로 브라우저 드라이버 설치
-          </br>'playwright install'
+        </br>playwright 최초 설치일 경우 아래 명령어로 브라우저 드라이버 설치:
+          </br>`playwright install`
     3. 틱톡 크리에이티브 센터 로그인 쿠키 저장:
-        </br>'python save_tiktok_cookies.py' 실행
+        </br>`python save_tiktok_cookies.py` 실행
        </br>자동 실행된 브라우저(틱톡 크리에이티브 센터)에 직접 로그인 후 터미널에 Enter 입력
-    4. 해시태그 크롤링 및 클러스터링:
-        </br>'python tiktok_hashtag_crawler.py' 실행
-    5. 음악 크롤링:
-        </br>'python tiktok_music_crawler.py' 실행
+    4. 인기 해시태그 순위 크롤링 및 클러스터링:
+        </br>`python tiktok_hashtag_crawler.py` 실행
+    5. 인기 음악 순위 크롤링:
+        </br>`python tiktok_music_crawler.py` 실행
   
     **youtube_travel_analyzer/**
     1. 가상환경 생성 및 활성화  
@@ -85,14 +84,14 @@
 
     ### ⚠️ 주의사항
 
-    **TikTok_Crawler**
+    **TikTok_Crawler/**
     - 크롤링 실패/페이지 구조 변경 시:
       1. playwright 브라우저 최신화
       2. 브라우저 창 크기에 맞추어 스크롤 조정
       3. 코드 내 셀렉터(버튼/텍스트 등) 점검
     - 쿠키 저장 파일명 tiktok_cookies.json
     - 쿠키 만료/로그아웃 시:
-      </br>tiktok_cookies.json 삭제 후 쿠키 저장 재진행
+      </br>`tiktok_cookies.json` 삭제 후 쿠키 저장 재진행
 
     **youtube_travel_analyzer/**
     - `.env` 파일에 API 키 등 민감 정보 포함, 깃허브 업로드 금지  
