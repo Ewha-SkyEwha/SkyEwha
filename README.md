@@ -84,6 +84,11 @@
 
     ### ⚠️ 주의사항
 
+  
+    **whisper-keyword-generator/**
+    - `.env` 파일에 API 키 등 민감 정보 포함, 깃허브 업로드 금지  
+    - API 키는OpenAI Platform에서 발급받을 것
+
     **TikTok_Crawler/**
     - 크롤링 실패/페이지 구조 변경 시:
       1. playwright 브라우저 최신화
